@@ -1,0 +1,34 @@
+{% load static %}
+
+
+<div class="row d-flex justify-content-left">
+    <div class="offset-sm-1 mr-sm-5">
+        <img src="{{ receita.file_name.url }}" class="img-thumbnail" >
+    </div>
+    <div class="centered">
+        <h1>Massa de Pizza Integral</h1>
+        <br>
+        
+        <h3><span class="badge bg-secondary">{{receita.tempo_preparo}} minutos</span></h3>
+        <h3><span class="badge bg-secondary">Para {{receita.rendimento}} pessoa(s)</span></h3>
+        <h3><span class="badge bg-secondary">Cozinha {{receita.categoria}}</span></h3>
+    </div>
+</div> 
+<div class="container">
+    <div class="row d-flex justify-content-left"> 
+        <div class="col-6">
+            <h2>Ingredientes</h2>
+            <ul>{{receita.ingredientes}}</ul>
+        </div>
+        <div class="col-6">
+            <ul class="preparo  ">
+                <h2>Modo de preparo</h2>
+                <ul class="prepare-item">
+                    <span class="description-list">
+                    {{receita.preparo}}
+                    </span>
+                </ul>
+            </ul>
+        </div>
+    </div>
+</div>

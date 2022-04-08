@@ -1,0 +1,38 @@
+body{
+    background-color: linen;
+}
+/* :: 2.0 Import All CSS */
+@import url(css/bootstrap.min.css);
+@import url(css/owl.carousel.min.css);
+@import url(css/animate.css);
+@import url(css/magnific-popup.css);
+@import url(css/font-awesome.min.css);
+@import url(css/custom-icon.css);
+@import url(css/classy-nav.min.css);
+@import url(css/nice-select.min.css);
+
+.alinhamento-iconi{
+    margin: 20px 0 0 57px;
+}
+ul li {
+    display: inline-block;
+    margin: 20px;
+    
+}
+.container{
+    margin: 0 50px 50px 50px;
+}
+.espaço{
+    margin: 60px 0;
+}
+.hd ul{
+    display: flex;
+    margin: 20px 20px 20px -23px;
+}
+.btn btn-secondary {
+    background-color: firebrick;
+}
+.container img{
+    width: auto; 
+    height:200px;
+}

@@ -1,0 +1,26 @@
+{% load static %}
+{% load crispy_forms_tags %}
+
+<!-- Menu -->
+<div class="alinhamento-iconi">
+  <div class="row d-flex justify-content-left">
+    <ul>
+      <div class="row">
+        <img src="{% static 'img/icon/livro-de-receitas.png' %}" alt="" width="50px" height="50px">
+        <h1>Receitas 123</h1></div>
+    </ul>
+  </div>
+</div>  
+
+<br>
+
+<nav class="navbar navbar-light  justify-content-between">
+  <a class="btn btn-outline-dark" href="{% url 'index' %}" style="margin-left: 18px;">Inicio</a>
+  <form class="form-inline" style="margin-right: 18px;">
+    <a href="{% url 'editar-receita' receita.id %}" class="btn btn-outline-success mr-sm-2">Editar</a>
+    <br>
+    <a href="{% url 'excluir-receita' receita.id %}" class="btn btn-danger mr-sm-2">Excluir</a>
+  </form>
+  </ul>
+</nav>
+<br><br>  
