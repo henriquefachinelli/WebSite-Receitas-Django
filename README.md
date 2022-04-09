@@ -2,9 +2,9 @@
 
 Siga os passos para executar a aplicalçao.
 
-1) Crie uma ambiente virtual dentro da pasta.
+1) Instale o python,crie e ative um ambiente virtual dentro da pasta.
 
-2) Instale o framework e pacotes listados em requirements.
+2) Instale o framework e pacotes listados.
           "pip install django"
           "pip install django-crispy-forms"
           "pip install djangorestframework"
